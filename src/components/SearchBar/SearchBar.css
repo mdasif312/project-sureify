@@ -1,0 +1,50 @@
+.searchbar{
+  display: flex;
+  justify-content: flex-end;
+  
+  width: 30%;
+  margin: 150px 0 50px 0;
+  align-self: flex-start;
+  margin-left: 15%;
+}
+
+.searchbar>*{
+  margin: 0 5px;
+}
+
+.searchbar>input{
+  flex-grow: 1;
+  outline: none;
+  border:none;
+  background: #CCC;
+  border-bottom: 1px solid #555;
+  font-size: 120%
+}
+
+.searchbar>img{
+  cursor: pointer;
+  position: relative;
+  right: calc(20px + 20px); 
+  width: 25px;
+  margin: 10px;
+}
+
+.searchbar>select{
+  position: relative;
+  top: calc( 50% - 15px);
+  right: 20px;
+  height: 30px;
+  font-size: 15px;
+  line-height: 15px;
+  margin-left: 0px;
+  background: white;
+  outline: none;
+  border: none;
+}
+
+.searchbar>label{
+  position: relative;
+  top: calc( 50% - 12px);
+  font-size: 18px;
+  right: 20px;
+}

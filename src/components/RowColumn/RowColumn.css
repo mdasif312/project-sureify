@@ -1,0 +1,7 @@
+.row-column{
+  border-bottom: 1px solid #BBC;
+  border-right: 1px solid #BBC;
+  text-align: center;
+  font-size: 110%;
+  padding: 10px;
+}
